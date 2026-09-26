@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>О себе — Путешественник</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .projects-list {
+            column-count: 2;
+            column-gap: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Соколова Виктория</h1>
+        <p>Страница путешественника</p>
+    </header>
+
+    <nav class="sticky-nav">
+        <a href="#italy">Италия</a>
+        <a href="#france">Франция</a>
+        <a href="#spain">Испания</a>
+        <a href="#greece">Греция</a>
+    </nav>
+
+    <main>
+        
+        <div class="avatar-wrapper">
+            <img src="assets/avatar.png" alt="Фото путешественника" width="200" height="200">
+            <span class="badge">PRO</span>
+        </div>
+
+        <section>
+            <h2 class="static-heading">Навыки</h2>
+            <ul>
+                <li>Планирование маршрутов</li>
+                <li>Знание иностранных языков</li>
+                <li>Ориентирование на местности</li>
+                <li>Фотография</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Проекты</h2>
+            <ol class="projects-list">
+                <li id="italy">Италия — Рим и Флоренция</li>
+                <li id="france">Франция — Париж и Лазурный берег</li>
+                <li id="spain">Испания — Барселона</li>
+                <li id="greece">Греция — Санторини</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Форма обратной связи</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Имя" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" rows="5" placeholder="Сообщение" required></textarea>
+                
+                <button type="submit" style="font-size: 16px;">Отправить</button>
+            </form>
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Любимое место</h2>
+        <p>Санторини, Греция</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Соколова Виктория</p>
+    </footer>
+
+</body>
+</html>
