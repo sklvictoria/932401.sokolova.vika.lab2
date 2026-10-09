@@ -70,6 +70,16 @@ header {
     color: #FF4500;
 }
 
+.sticky-nav a:focus {
+    outline: 2px dashed var(--color-accent);
+    outline-offset: 4px;
+    color: var(--color-accent);
+}
+
+.sticky-nav a:focus::after {
+    width: 100%;
+}
+
 main {
     padding: 20px;
     max-width: 800px;
@@ -161,4 +171,10 @@ button:hover {
 
 button:active {
     background-color: #A04000;
+}
+
+button:focus {
+    outline: 3px solid var(--color-header);
+    outline-offset: 2px;
+    box-shadow: 0 0 10px var(--color-accent);
 }
