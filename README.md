@@ -5,12 +5,14 @@
 Откройте файл index.html в любом браузере
 
 Структура проекта:
-932401.sokolova.vika.lab2/
+``` 
+ 932401.sokolova.vika.lab2/
 ├── index.html
 ├── style.css
 ├── README.md
 └── assets/
-    ── avatar.png
+    ── avatar.png 
+``` 
 
 Что реализовано
 
